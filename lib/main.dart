@@ -68,9 +68,9 @@ class _State extends State<MyApp> {
   _changeText() {
     setState(() {
       if (msg.startsWith('F')) {
-        msg = 'I have learned FlutterRaised example ';
+        msg = ' ';
       } else {
-        msg = 'Flutter RaisedButton example';
+        msg = '';
       }
     });
   }
